@@ -4,7 +4,7 @@
 
 
 :root {
-    --main-color: #762338;
+    --main-color: rgb(106, 46, 56);;
     --sec-color: #AC033C;
     --white-color: #D9D9D9;
 }
@@ -38,4 +38,17 @@ body {
 .intro h3{
     color: white;
     font-size: 1.5rem;
+}
+
+.statistics{
+    background-color: rgb(106, 46, 56);
+}
+
+.placeholder {
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+    display: inline-block;
+    background: linear-gradient(90deg, rgb(195, 195, 195) 0px, rgb(196, 196, 196), rgb(201, 201, 201), rgb(196, 196, 196), rgb(195, 195, 195)) 0px 0px / 200% 100% no-repeat rgb(201, 201, 201);
+    animation: 1.5s ease-in-out 0s infinite normal none running placeholder;
 }

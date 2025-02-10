@@ -1,6 +1,5 @@
 import Header from "@/components/Header/Header.js"
 import Footer from "@/components/Footer/Footer.js"
-import Search from "@/components/Search/Search";
 import Table from "@/components/Table/Table";
 
 import { Cairo } from "next/font/google";
