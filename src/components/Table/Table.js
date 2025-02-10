@@ -90,7 +90,7 @@ const courses = [
 export default function Table() {
   return (
     <>
-      <div className="container mx-auto p-6 mt-5 bg-white shadow-lg rounded-lg">
+      <div className="container mx-auto p-6 my-5 bg-white shadow-lg rounded-lg">
         <h1 className="text-3xl font-bold text-start mb-6">
           {" "}
           الدورات التدريبية
